@@ -100,7 +100,7 @@ const Home: React.FC = () => {
             <h2>Contato</h2>
 
             <span>
-              <strong>E-mail:</strong>selprom@hotmail.com
+              <strong>E-mail:</strong>selprom@selprom.com.br
             </span>
 
             <span className="phone">
