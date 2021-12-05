@@ -19,7 +19,7 @@ const Footer = () => {
                 Selprom Tecnologia
               </a>
             </h4>
-            <span>© 2021 - Todos os direitos reservados</span>
+            <span>&copy; {new Date().getFullYear()} - Todos os direitos reservados</span>
           </div>
           <div
             style={{
@@ -33,9 +33,9 @@ const Footer = () => {
                   textDecoration: 'none',
                   color: '#fff'
                 }}
-                href="https://github.com/pedrozez"
+                href="https://github.com/pedrolcsf"
               >
-                pedrozez
+                Pedro Ferreira
               </a>{' '}
               📌
             </span>

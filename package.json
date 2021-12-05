@@ -1,11 +1,12 @@
 {
-  "name": "reactsetup",
-  "version": "0.1.0",
+  "name": "selprom",
+  "version": "1.0",
+  "author": "Pedro Ferreira<pedrolcsferreira@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3001"
   },
   "dependencies": {
     "@unform/core": "^2.1.3",
