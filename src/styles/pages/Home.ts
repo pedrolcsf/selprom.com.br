@@ -27,6 +27,13 @@ export const Content = styled.div`
   }
 `
 
+export const Flex = styled.div`
+  display: flex;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
+`
+
 export const ContentButton = styled.div`
   display: flex;
   align-items: center;
@@ -105,12 +112,14 @@ export const Services = styled.div`
 `
 export const Service = styled.div`
   border: 1px solid rgb(225, 225, 230, 0.9);
-  padding: 16px;
+  padding: 12px;
   border-radius: 6px;
   width: 300px;
-  height: 400px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   margin-right: 32px;
-
+  background: rgba(26, 26, 46, 0.5);
   transition: border 0.2s;
 
   h3 {

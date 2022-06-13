@@ -20,8 +20,19 @@ import {
   Service,
   ServiceContent,
   SendMessage,
+  Flex,
   SendMessageButton
 } from '../styles/pages/Home'
+
+import {
+  RiBatteryChargeFill,
+  RiLightbulbFill,
+  RiMoreLine,
+  RiNumber8,
+  RiRadioButtonLine,
+  RiTrafficLightFill,
+  RiTrafficLightLine
+} from 'react-icons/ri'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -49,17 +60,42 @@ const Home: React.FC = () => {
         <Services id="services">
           <ServicesContent>
             <h2>Serviços</h2>
-            <ServiceContent>
+            <ServiceContent
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
               <Service>
-                <h3>Rede Semafórica</h3>
+                <h4>Rede Semafórica</h4>
+                <RiTrafficLightFill style={{ marginLeft: '8px' }} size={20} />
               </Service>
 
               <Service>
-                <h3>Iluminação Pública</h3>
+                <h4>Iluminação Pública</h4>
+                <RiLightbulbFill style={{ marginLeft: '8px' }} size={20} />
               </Service>
 
               <Service>
-                <h3>Botoeiras Inteligentes</h3>
+                <h4>Botoeiras Inteligentes</h4>
+                <RiRadioButtonLine style={{ marginLeft: '8px' }} size={20} />
+              </Service>
+            </ServiceContent>
+          </ServicesContent>
+
+          <ServicesContent style={{ marginTop: '16px' }}>
+            <ServiceContent
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Service>
+                <h4>Nobreaks</h4>
+                <RiBatteryChargeFill style={{ marginLeft: '8px' }} size={20} />
+              </Service>
+
+              <Service>
+                <h4>Contador Regressivo</h4>
+              </Service>
+
+              <Service>
+                <h4>Outros</h4>
+                <RiMoreLine style={{ marginLeft: '8px' }} size={20} />
               </Service>
             </ServiceContent>
           </ServicesContent>
